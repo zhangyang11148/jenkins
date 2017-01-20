@@ -207,7 +207,8 @@
 				TargetAttributes = {
 					41A5A45B1E31BCD30059D0CE = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 7CCDF6GGY6;
+						ProvisioningStyle = Manual;
 					};
 					41A5A4741E31BCD40059D0CE = {
 						CreatedOnToolsVersion = 8.0;
@@ -422,10 +423,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 阳 张 (6UAJ2MQ47V)";
+				DEVELOPMENT_TEAM = 7CCDF6GGY6;
 				INFOPLIST_FILE = jenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zy.com.jenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.zy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "78eae181-cbce-4145-9119-8f5d41c2e2a1";
+				PROVISIONING_PROFILE_SPECIFIER = com.jenkins.zy;
 			};
 			name = Debug;
 		};
@@ -433,10 +438,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 阳 张 (6UAJ2MQ47V)";
+				DEVELOPMENT_TEAM = 7CCDF6GGY6;
 				INFOPLIST_FILE = jenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zy.com.jenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.zy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "78eae181-cbce-4145-9119-8f5d41c2e2a1";
+				PROVISIONING_PROFILE_SPECIFIER = com.jenkins.zy;
 			};
 			name = Release;
 		};
